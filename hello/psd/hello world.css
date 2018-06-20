@@ -1,0 +1,357 @@
+@font-face {
+    font-family: OpenSansBold;
+    src: url('../fonts/opensans/opensansbold.woff')
+}
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/opensans/opensans.woff')
+}
+@font-face {
+    font-family: OpenSansSemibold;
+    src: url('../fonts/opensans/opensanssemibold.woff')
+}
+body, header {
+    margin: 0;
+    padding: 0;
+}
+.main_header {
+    background-color: #2ad3de;
+    width: 100%;
+}
+.wrapper {
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header {
+    background: url('../image/banner-image.png') no-repeat;
+    min-height: 500px;
+}
+.nav {
+
+    margin-top: 25px;
+    margin-bottom: 0;
+    float: right;
+    font-family: OpenSansBold, sans-serif ;
+}
+.nav li {
+    display: inline-block;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav li a:hover {
+    color: #ff8900;
+}
+.header img {
+    margin-top: 28px;
+    cursor: pointer;
+}
+.banner {
+    margin-top: 140px;
+    text-align: center;
+    color: #fff;
+}
+.banner h1 {
+    margin: 0;
+    font-family: OpenSansBold, sans-serif;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.banner p {
+    margin: 24px 0 0 0;
+    font-family: OpenSans, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+.button {
+    width: 182px;
+    height: 49px;
+    background: #ffb74c;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-family: OpenSansSemibold, sans-serif;
+    margin: 80px 0 35px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.recent_clients {
+    background-color: #eaeaea;
+}
+.recent_clients span {
+    cursor: pointer;
+    display: inline-block;
+    width: 281px;
+    height: 72px;
+    background-image: url('../image/recent-clients.png');
+    margin-top: 69px;
+    margin-bottom: 55px;
+}
+.activeden{
+    margin-right: 13px;
+    margin-left: 2px;
+}
+.codecanyon {
+    background-position: -290px 0;
+    margin-right: 6px;
+}
+.graphicriver {
+    background-position: -591px 0;
+    margin-left: 10px;
+}
+.themeforest {
+    background-position: -889px 0;
+    margin-left: 12px;
+}
+.main_recent_clients {
+    background: #eaeaea;
+}
+.about h1 {
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: OpenSansSemibold, sans-serif;
+    margin: 70px 0 0 0;
+}
+.about p {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: OpenSans, sans-serif;
+    margin: 0;
+}
+.about h2 {
+    color: #2ad3de;
+    font-size: 24px;
+    font-family: OpenSansSemibold, sans-serif;
+    margin: 0;
+}
+.article, .acide {
+    width: 50%;
+    display: inline-block;
+    margin-top: 60px;
+    float: left;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.article p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+}
+.article {
+    padding-right: 20px;
+}
+.acide {
+    padding-left: 10px;
+}
+.acide_gallery {
+    box-sizing: border-box;
+}
+.foto {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+}
+.foto:nth-child(3n-1) {
+    margin-left: 0;
+}
+.acide span {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.slider1 {
+    background: #2ad3de;
+    width: 80px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 15px 0 195px;
+    cursor: pointer;
+}
+.slider2 {
+    background: #94e9ee;
+    width: 80px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.portfolio {
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+    font-family: OpenSansSemibold, sans-serif;
+    margin-top: 75px;
+}
+.portfolio h1 {
+    line-height: 24px;
+    margin-top: 0;
+}
+.recent_work, .portfolio_gallery {
+    display: inline-block;
+    float: left;
+}
+.recent_work {
+    width: 25%;
+    text-align: justify;
+    margin-top: 50px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.recent_work h2 {
+    font-size: 24px;
+    margin: 0;
+}
+.recent_work p{
+    font-family: OpenSans, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    margin: 0;
+}
+.portfolio_gallery {
+    width: 75%;
+    margin: 60px 0 0 0;
+    padding-left: 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.gallery {
+    width: 280px;
+    height: 235px;
+    display: inline-block;
+    margin: 0 0 10px 10px;
+}
+.gallery:nth-child(3n-2) {
+    margin-left: 0;
+}
+.portfolio .button {
+    margin: 15px 0;
+}
+.blog {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: OpenSansSemibold, sans-serif;
+    margin-top: 35px;
+}
+.blog h1{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+.recent_posts {
+    text-align: left;
+    margin-top: 60px;
+}
+.blog h2 {
+    color: #2ad3de;
+    font-family: OpenSansSemibold, sans-serif;
+    font-size: 24px;
+}
+.posts {
+    width: 281px;
+    height: 220px;
+    background-image: url('Group%201.png');
+    display: inline-block;
+    margin: 10px 0 10px 10px;
+}
+.posts:nth-child(4n-2) {
+    margin-left: 0;
+}
+.blog .button {
+    margin: 15px 0 20px;
+}
+.main_contact {
+    background: #ff9900;
+    width: 100%
+}
+.contact {
+    text-align: center;
+    font-family: OpenSansSemibold, sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+.contact h1 {
+    text-transform: capitalize;
+    padding-top: 30px;
+    margin: 0;
+}
+.contact p {
+    font-family: OpenSans, sans-serif;
+    margin: 0;
+    padding-bottom: 76px;
+    font-size: 18px;
+}
+.contact .text {
+    width: 776px;
+    height: 68px;
+    margin-bottom: 10px;
+    border: 0;
+    text-transform: capitalize;
+    font-family: OpenSansSemibold, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.contact .massage {
+    width: 776px;
+    height: 220px;
+    padding-top: 20px;
+    border: 0;
+    text-transform: capitalize;
+    font-family: OpenSansSemibold, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.contact .button {
+    margin: 30px 0;
+    background: #2ad3de;
+}
+footer {
+    background: #212121 ;
+    height: 100px;
+    color: #efefef;
+    font-family: OpenSans sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.data {
+    padding-top: 40px;
+}
+.info {
+    display: inline-block;
+}
+.info p {
+    margin: 0;
+}
+.info a {
+    color: #ff9900;
+}
+.data ul {
+    display: inline-block;
+    margin: 0;
+    float: right;
+}
+.data ul li {
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+.data ul li a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+
